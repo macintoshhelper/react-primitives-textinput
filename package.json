@@ -1,0 +1,30 @@
+{
+  "name": "react-primitives-textinput",
+  "version": "1.0.0",
+  "description": "TextInput abstraction for React Primitives",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macintoshhelper/react-primitives-textinput.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macintoshhelper/react-primitives-textinput/issues"
+  },
+  "homepage": "https://github.com/macintoshhelper/react-primitives-textinput#readme",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-native-web": "^0.10.1",
+    "react-primitives": "^0.7.0"
+  },
+  "peerDependencies": {
+    "react-primitives": ">= 0.7",
+    "react": ">= 16",
+    "react-dom": ">= 16"
+  }
+}
