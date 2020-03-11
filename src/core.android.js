@@ -1,6 +1,1 @@
-import React from 'react';
-import { TextInput } from 'react-native';
-
-const Input = props => <TextInput {...props} />;
-
-export default Input;
+export { TextInput as default } from 'react-native';
