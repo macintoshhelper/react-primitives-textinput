@@ -1,6 +1,6 @@
 {
   "name": "react-primitives-textinput",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "TextInput abstraction for React Primitives",
   "main": "lib/index.js",
   "scripts": {
@@ -20,15 +20,15 @@
   "homepage": "https://github.com/macintoshhelper/react-primitives-textinput#readme",
   "dependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "react": "^16.3.2",
-    "react-native-web": "^0.10.1",
-    "react-primitives": "^0.7.0"
+    "@babel/core": "^7.3.4"
+  },
+  "optionalDependencies": {
+    "react-native": ">= 0.40",
+    "react-dom": ">= 16",
+    "react-sketchapp": ">= 1.0"
   },
   "peerDependencies": {
-    "react-primitives": ">= 0.7",
-    "react": ">= 16",
-    "react-dom": ">= 16"
+    "react": ">= 16"
   },
   "devDependencies": {
     "babel-preset-airbnb": "^3.2.0"
